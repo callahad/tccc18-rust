@@ -1,14 +1,18 @@
-## My Python's a Little Rusty
+## My Code's a Little Rust-y
 
-#### Dan Callahan &middot; dcallahan@mozilla.com &middot; @callahad
-
----
-
-## The Big Lie
+#### Dan Callahan &middot; dcallahan@mozilla.com · [@callahad](https://twitter.com/callahad)
 
 <br>
 
-> "Python's fast enough, and <br>
+[github.com/callahad/tccc18-rust](https://github.com/callahad/tccc18-rust)
+
+---
+
+## The Python/Ruby/Node.JS Lie
+
+<br>
+
+> "[Language] is fast enough, and <br>
 > I can always write a C extension."
 
 <br>
@@ -20,13 +24,11 @@ But it's not, and we never do.
 
 ## Why don't we write C?
 
-***
-
 ### 1. Other people did it for us.
 
 ***
 
-### Lines of C/C++ in Projects
+### Lines of C/C++ in Python Projects
 
 |     Project     | # Lines |  %  |
 | --------------- | -------:| ---:|
@@ -37,7 +39,7 @@ But it's not, and we never do.
 
 ***
 
-### We're standing on the shoulders of giants.
+### We're standing on their shoulders
 
 ### And so are they.
 <!-- .element: class="fragment" -->
@@ -53,7 +55,11 @@ But it's not, and we never do.
 
 ### Memory management is **hard**.
 
-- Heartbleed <!-- .element: class="fragment" -->
+<video data-autoplay class="stretch" src="img/ghostride.mp4"></video>
+
+***
+
+- Heartbleed
 - Ghost <!-- .element: class="fragment" -->
 - CVE-2015-0080 <!-- .element: class="fragment" -->
 
@@ -98,55 +104,32 @@ Growable things like vectors must go on the heap._
 
 ---
 
-## Managed vs unmanaged
+## Managed vs. Unmanaged
 
 ***
-<!-- .slide: data-background="img/ownership/01.jpg" -->
-***
-<!-- .slide: data-background="img/ownership/02.jpg" -->
-***
-<!-- .slide: data-background="img/ownership/03.jpg" -->
-***
-<!-- .slide: data-background="img/ownership/04.jpg" -->
-***
-<!-- .slide: data-background="img/ownership/04.jpg" -->
 
----
+<!-- .slide: data-background-transition="none" data-background="img/ownership/01.jpg" -->
+
+&nbsp;
+
+***
+
+## Managed vs. Unmanaged
+
+_With Real Whiteboards!_
+
+***
 
 ## Ownership
 
+_With Real Whiteboards!_
+
 ***
-<!-- .slide: data-background="img/ownership/05.jpg" -->
-***
-<!-- .slide: data-background="img/ownership/06.jpg" -->
-***
-<!-- .slide: data-background="img/ownership/07.jpg" -->
-***
-<!-- .slide: data-background="img/ownership/08.jpg" -->
-***
-<!-- .slide: data-background="img/ownership/09.jpg" -->
-***
-<!-- .slide: data-background="img/ownership/10.jpg" -->
-***
-<!-- .slide: data-background="img/ownership/11.jpg" -->
-***
-<!-- .slide: data-background="img/ownership/12.jpg" -->
-***
-<!-- .slide: data-background="img/ownership/13.jpg" -->
-***
-<!-- .slide: data-background="img/ownership/14.jpg" -->
-***
-<!-- .slide: data-background="img/ownership/15.jpg" -->
-***
-<!-- .slide: data-background="img/ownership/16.jpg" -->
-***
-<!-- .slide: data-background="img/ownership/17.jpg" -->
-***
-<!-- .slide: data-background="img/ownership/18.jpg" -->
-***
-<!-- .slide: data-background="img/ownership/19.jpg" -->
-***
-<!-- .slide: data-background="img/ownership/20.jpg" -->
+
+<!-- .slide: data-background-transition="none" data-background="img/ownership/20.jpg" -->
+
+&nbsp;
+
 ***
 
 ### Enforced Statically at Compile Time
@@ -168,20 +151,30 @@ _This is a "Zero-Cost Abstraction."_
 
 ---
 
+![](img/servo-github.png)
+<!-- .element: style="margin-top: -5%;" -->
+
+---
+
+![](img/servo-reddit.png)
+<!-- .element: style="margin-top: -5%;" -->
+
+---
+
 ## Python FFI Demos!
 
 ---
 
 ## Learn More
 
-_rust-lang.org_
+_[rust-lang.org](https//rust-lang.org)_
 
----
+___
 
-## Questions?
-
-<br>
-
-@callahad
+[@callahad](https://twitter.com/callahad)
 
 dcallahan@mozilla.com
+
+___
+
+[github.com/callahad/tccc18-rust](https://github.com/callahad/tccc18-rust)
